@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+    background-color: lightgrey;
+}
+
+#header, #img-div{
+    text-align: center;
+    margin: 20px;
+}
+
+#img-div{
+    max-width: 650px;
+    height: auto;
+
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
+#timeline{
+    max-width: 700px;
+    margin: auto;
+}
+
+#timeline-title{
+    text-align: center;
+}
+
+#quote{
+    width: 300px;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-style: italic;
+}
