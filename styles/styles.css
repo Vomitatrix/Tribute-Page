@@ -1,6 +1,14 @@
 body{
     margin: auto;
     background-color: lightgrey;
+    display: grid;
+    grid-template-areas: 
+    "header timeline"
+    "external external";
+}
+
+#header{
+    grid-area: header;
 }
 
 #header, #img-div{
@@ -11,7 +19,6 @@ body{
 #img-div{
     max-width: 650px;
     height: auto;
-
     margin: auto;
     padding: 15px;
     background-color: white;
@@ -25,10 +32,16 @@ body{
 #timeline{
     max-width: 700px;
     margin: auto;
+    grid-area: timeline;
 }
 
 #timeline-title{
     text-align: center;
+}
+
+#timeline-list{
+    max-width: 500px;
+    margin: auto;
 }
 
 #quote{
@@ -37,4 +50,20 @@ body{
     margin-top: 3em;
     margin-bottom: 3em;
     font-style: italic;
+}
+
+#external-link{
+    text-align: center;
+    font-size: large;
+    font-style: bold;
+    grid-area: external;
+}
+
+@media (max-width: 1000px){
+    body{
+        grid-template-areas: 
+        "header"
+        "timeline"
+        "external";
+    }
 }
