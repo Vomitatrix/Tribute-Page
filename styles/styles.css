@@ -22,11 +22,15 @@ body{
     margin: auto;
     padding: 15px;
     background-color: white;
+    border-radius: 5%;
 }
 
 #image{
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
 }
 
 #timeline{
